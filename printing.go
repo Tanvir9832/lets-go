@@ -25,4 +25,7 @@ func Printing() {
 
 	fmt.Printf("My first name is %v and last name is %v \nMy name type is (%T) and my age type is (%T)", name, age, name, age)
 
+	fraction := 3.14159
+	fmt.Printf("Fraction is = (%f)", fraction)   //Fraction is = (3.141590)
+	fmt.Printf("Fraction is = (%.2f)", fraction) //Fraction is = (3.14)
 }
