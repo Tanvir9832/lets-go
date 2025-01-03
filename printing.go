@@ -21,4 +21,8 @@ func Printing() {
 	// Println with formatting
 	fmt.Println("Hello, World!", "This is a new line", "This is another new line")
 
+	name, age := "Tanvir", 87
+
+	fmt.Printf("My first name is %v and last name is %v \nMy name type is (%T) and my age type is (%T)", name, age, name, age)
+
 }
