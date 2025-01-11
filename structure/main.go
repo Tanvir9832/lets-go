@@ -31,4 +31,10 @@ func main() {
 	}
 
 	fmt.Println(Anik) // {Tanvir 22 Green University of Bangladesh CSE 1.5}
+
+
+
+	type address struct {
+		
+	}
 }
