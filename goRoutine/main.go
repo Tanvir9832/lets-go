@@ -13,5 +13,5 @@ func main() {
 	for i := 1; i <= 10; i++ {
 		go task(i)
 	}
-	time.Sleep(3000)
+	time.Sleep(time.Second)
 }
