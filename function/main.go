@@ -72,6 +72,10 @@ func (p Person) getPerson() Person {
 	return p
 }
 
+func init() {
+	fmt.Println("Am I the first one to print even before the main function ?")
+}
+
 func main() {
 	fmt.Println(allPossible(10, 5))
 	person := Person{
